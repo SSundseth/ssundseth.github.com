@@ -1,0 +1,25 @@
+html {         
+        padding: 25px 0 25px 0; }
+
+body {
+        background-color:#CCFFCC;
+        text-align: left;
+        font-family: 'Helvetica Neue', Helvetica;
+        font-size: 16px;
+        color: #600; }
+
+.post {
+        margin-bottom: 35px; }
+        .post h3 {
+                text-align: left;
+                font-size: 24px;
+                font-family: 'Helvetica';
+                font-weight: bold;
+                margin-bottom: 25px }
+
+        .post .meta {
+                margin-top: 25px;
+                border-bottom: 3px double #bbb;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                color: #606; }
