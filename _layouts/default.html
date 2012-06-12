@@ -2,10 +2,21 @@
 
 <head>
     <title>{{ page.title }}</title>
+    <link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 
     <body>
-        <div id="content">
+    <style type="text/css">
+    A:link {text-decoration: none; color:#000}
+    A:visited {text-decoration: none; color:#000}
+    A:hover {text-decoration: underline}
+    A:active {text-decoration: none}
+    </style>
+        <div id="header">
+            <h1><a href="/">Stefan Sundseth's Blog</a></h1>
+        </div>
+        <hr style="height:3px; color:#000099; background-color:#000099;" />
+        <div id="content" style="width:800px;">
             {{ content }}
         </div>
     </body>
