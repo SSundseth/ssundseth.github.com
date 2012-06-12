@@ -1,0 +1,17 @@
+---
+layout: post
+title: Day 1
+---
+
+My first day at Viget began with meeting the Durham team, and then setting up the MacBook Pro that I was 
+issued. Guided by David Eisenger and the other developers, we began downloading. With essential
+software such as gcc, rvm, homebrew, and of course git, this took up most of the morning. In
+between 'brew install's' was an orientation presentation given by the esteemed VP of Operations, Cindy 
+Caldwell. Lunch was with the Development Team at Mellow Mushroom, which never fails to be delicious, and
+the afternoon was filled with the creation of this blog using Jekyll, a website generator. 
+
+Unfortunately, my HTML is a little rusty and so not much actual creation was accomplished, I mostly
+read the Jekyll documentation and checked out some example blogs. With David's
+help I pushed the directory structure to Github and hopefully tomorrow I will have the blog running
+online.
+

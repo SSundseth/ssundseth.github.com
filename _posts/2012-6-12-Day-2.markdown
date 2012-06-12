@@ -1,0 +1,17 @@
+---
+layout: post
+title: Blog is Online
+---
+
+This morning I got the blog up and running, adding a bit of style along the way. When I saw Elias's
+awesome setup with Jekyll-bootstrap I though about switching over but decided I needed the HTML/CSS
+practice. At lunch I met the the developers from other offices while feasting on a sub from everyone's
+favorite sandwich delivery: Jimmy John's. We talked for a good bit on some of the interesting projects
+everyone is working on. In the afternoon everything was going well until I was hit right in the 
+complacency by Patrick's email detailing our next project. I dove right into that, reading up on
+Heroku and how it deploys Rails applications before attending a presentation on the history of our great
+organization.
+
+I'm still working on making the vigeblog look nice, want to add an archive and comments section and maybe
+an RSS feed afterwards so my HTML education continues. Also looking forward to creating a real Rails
+application and working with Heroku.
