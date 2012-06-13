@@ -1,0 +1,13 @@
+---
+layout: post
+title: Riding the Rails
+---
+
+Added an archive and comments section to the blog this morning before meeting with David and
+Chris to discuss the haxxor-news project. They walked me through a few of the fundamental
+features of rails and the site got off to a good start. 
+In the afternoon I worked on my own,
+adding a page where users can submit links and configuring the routes of the site.
+
+Still have a lot of work to do on the site but I've learned quite a bit about rails today
+even though I'm only at the tip of the iceberg.
