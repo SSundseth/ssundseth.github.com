@@ -8,6 +8,9 @@ body {
         font-size: 16px;
         color: #600; }
 
+table {
+        width:100%; }
+
 .post {
         margin-bottom: 35px; }
         .post h3 {

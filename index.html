@@ -2,8 +2,12 @@
 layout: default
 title: Stefan Sundseth
 ---
+<html>
+<body>
 
-
+<table width="100%">
+<tr valign="top">
+<td style="width:800px; text-align:top;">
 {% for post in site.posts %}
 	<div class="post">
 		<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -17,4 +21,18 @@ title: Stefan Sundseth
 		</div>
 	</div>
 {% endfor %}
+</td>
+<td style="width:200px; text-align:right;">
+<h2>Archive</h2>
+{% for post in site.posts %}
+    <div class="arch">
+        <a href="{{ post.url }}">{{ post.date | date_to_string }}</a>
+    </div>
+{% endfor %}
+</td>
+</tr>
+</table>
+
+</body>
+</html>
 
