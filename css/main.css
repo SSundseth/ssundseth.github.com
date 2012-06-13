@@ -8,8 +8,24 @@ body {
         font-size: 16px;
         color: #600; }
 
+a:link {text-decoration: none; color:#000}
+a:visited {text-decoration: none; color:#000}
+a:hover {text-decoration: underline}
+a:active {text-decoration: none}
+
+
 table {
-        width:100%; }
+        margin-left: auto;
+        margin-right: auto; }
+
+
+.center {
+        text-align: center; }
+
+.center table {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left; }
 
 .post {
         margin-bottom: 35px; }
