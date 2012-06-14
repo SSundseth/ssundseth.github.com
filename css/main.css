@@ -2,6 +2,8 @@ html {
         padding: 25px 0 25px 0; }
 
 body {
+  margin-left:10%;
+  margin-right:20%;
         background-color:#CCFFCC;
         text-align: left;
         font-family: 'Helvetica Neue', Helvetica;
@@ -16,7 +18,8 @@ a:active {text-decoration: none}
 
 table {
         margin-left: auto;
-        margin-right: auto; }
+        margin-right: auto; 
+      }
 
 
 .center {
