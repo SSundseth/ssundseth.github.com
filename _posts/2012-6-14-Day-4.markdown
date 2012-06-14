@@ -7,13 +7,16 @@ Today I completed the basic functionality of the Haxxor-News site: displaying li
 visitors to post new links. I posted the pull request in campfire and got useful feedback
 from Patrick so I took some time to make his suggested changes before attempting to deploy to
 Heroku.
+
 The first thing I learned was that if sqlite3 is in your gemfile, Heroku will laugh at your
 pathetic attempts to git push any files. Unfortunately, if sqlite3 was not in my gemfile I could
 not bring the site up on a local server. With some assistance from fellow intern Elias and a lot 
 of trouble I figured out that I could
 relegate sqlite3 to the development environment and postgresql to the production environment using
 the 'group' command in the gemfile. This fixed the previously mentioned problem and the site is
-now up at http://ssundseth-haxxor-news.herokuapp.com. Now that Heroku has been figured out I
+now up at 
+<a href="http://ssundseth-haxxor-news.herokuapp.com">http://ssundseth-haxxor-news.herokuapp.com</a>
+Now that Heroku has been figured out I
 expect tomorrow will be filled with lots of rails to add some functionality to my site.
 
 
