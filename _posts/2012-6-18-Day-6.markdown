@@ -1,0 +1,14 @@
+---
+layout: post
+title: Monday
+---
+
+Today I put the finishing touches on the user-authentication functionality of the
+haxxor-news site. The pull request for this feature received some helpful tips on
+using RSpec so I spent a good portion of the day writing specs for the User model
+and SessionController classes. Diving into the specs really gave me a good
+understanding of how the classes are interacting as well.
+
+Still learning about site layout and style with
+HTML so I also made some minor changes to make haxxor-news look a little better.
+
