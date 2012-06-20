@@ -1,0 +1,13 @@
+---
+layout: post
+title: Comments, comments everywhere
+---
+
+The lucky few who view my haxxor-news site will soon be able to post comments
+all over the place. There are still some things to clean up so this feature
+hasn't been deployed, but rest assured it is on its way. I had been plagued
+with errors on the views for a while but 5 minutes of help from David cleared
+things up and the rest will soon be history.
+
+I also began writing some tests using the Capybara gem and added an rss feed
+to the blog finally. Overall a pretty productive day.
