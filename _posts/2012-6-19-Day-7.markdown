@@ -1,0 +1,16 @@
+---
+layout: post
+title: A Penny for your Comment
+---
+
+Managed to implement the 20 links per page view using the very handy
+will\_paginate gem, then began to work on add a commenting system to the
+haxxor-news site. With help from an epic whiteboard session with David and
+Chris I made good progress on this aspect of the site.
+
+This process led me to learn about such Rails topics as
+resource nesting, partials, and belongs\_to/has\_many tags. The most
+challenging part so far has been writing the views to facilitate comment
+threading but I think that should be wrapped up tomorrow. Otherwise, Rails
+is making more and more sense as I work through these features.
+
