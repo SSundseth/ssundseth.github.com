@@ -1,0 +1,17 @@
+---
+layout: post
+title: Where is the Wifi
+---
+
+Thursday was a day of great distress for the Durham Vigeteers, for the
+wireless internet was down. Some went home for the day, some visited local
+coffee shops, and some packed up their things and headed west to look for the
+internet. I remained at the office, doing what work I could locally. This
+consisted of playing ping-pong in between writing integration tests with
+Capybara.
+
+Today the internet had returned and things were back to normal. At lunch the 
+labshare given by Kevin provided interesting info about one of our clients, the
+World Wildlife Fund. Afterwards I finally put out a pull request for the
+comments feature and prepared for a relaxing weekend before moving on to letting
+users vote on articles and comments.
