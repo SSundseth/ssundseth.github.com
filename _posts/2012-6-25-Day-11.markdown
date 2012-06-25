@@ -1,0 +1,16 @@
+---
+layout: post
+title: Visual Heirarchy
+---
+
+If you aren't viewing this through the RSS feed, you may have noticed how much
+more awesome the blog looks now compared to a few days ago. This morning I met
+with the very skilled Mark/Mindy Durham design team. We looked at some examples
+of succesful blog designs and talked about what exactly makes them so
+visually appealing. I learned about such topics as choosing a color palette,
+typography, and the visual heirarchy of important pieces of information on a
+page. With these basic ideas to go on, I took the day off from the haxxor-news
+site and pimped out the blog as best I could.
+
+Tomorrow I'll start on the voting feature of haxxor-news, I'm confident it
+will go smoothly and should be finished up by friday.
