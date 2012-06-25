@@ -33,6 +33,15 @@ a.arch:hover {
   text-decoration: underline;
 }
 
+a.page:link, a.page:visited {
+  font-size:14pt;
+  color: #61A27F;
+  text-decoration: none;
+}
+a.page:hover {
+  text-decoration: underline;
+}
+
 hr.title {
   color: #AFC391;
   background-color: #AFC391;

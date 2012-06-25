@@ -5,15 +5,19 @@ server_port: 4000
 baseurl:    /
 url: http://localhost:4000
 
+paginate: 5
+
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 
+exclude: ['README.markdown']
 future:      true
-lsi:         false
-pygments:    false
-markdown:    maruku
+lsi:         true
+pygments:    true
+markdown:    rdiscount
 permalink:   date
+production: false
 
 maruku:
   use_tex:    false
