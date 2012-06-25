@@ -1,28 +1,18 @@
 <!doctype html>
 
 <head>
-    <title>{{ page.title }}</title>
-    <link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/assets/stylesheets/main.css" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400' rel='stylesheet' type='text/css'>
+  <title>{{ page.title }}</title>
 </head>
 <body>
 
-  <style type="text/css">
-    a:link {text-decoration: none; color:#000}
-    a:visited {text-decoration: none; color:#000}
-    a:hover {text-decoration: underline}
-    a:active {text-decoration: none}
-  </style>
-  <div id="header">
-    <h1><a href="/">Stefan Sundseth's Blog</a></h1>
+  <div class="header">
+    <a class="head" href="/">Stefan Sundseth's Blog</a>
   </div>
   
-  <hr style="height:3px; color:#000099; background-color:#000099;" />
-  
-  <div id="content" style="width:800px;">
+  <div class="content">
     {{ content }}
   </div>
 
-
-<div id="footer">
-	<a href="/feed.xml">RSS</a></li>
-<div>
