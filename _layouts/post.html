@@ -3,18 +3,34 @@ layout: default
 comments: true
 ---
 
-<div class="post">
-  <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+<table>
+  <tr>
+    <td style="width:75%;">
+      <h3><a class="cont" href="{{ post.url }}">{{ page.title }}</a></h3>
+      <hr class="title">
+      {{ content }}
+    </td>
 
-  <div class="body">
-    {{ content }}
-  </div>
+    <td style="width:20%; text-align:center; padding-left:30px">
+      <div class="chunk">
+        <h2>Links</h2>
+        <hr class="arch">
+        <hr class="arch">
+        <a class="arch" href="/about.html">About</a><br />
+        <a class="arch" href="https://github.com/SSundseth/ssundseth.github.com">Github for this site</a><br />
+        <a class="arch" href="/feed.xml">RSS</a><br />
+
+        <hr class="arch">
+        <hr class="arch"><br />
+      </div>
+    </td>
+  </tr>
+</table>
 
   <div class="meta">
-    Posted on <a href="{{ page.url }}">{{ page.date | date_to_string }}</a>
+    Posted on <a href="{{ page.url }}">{{ page.date | date: "%d %B %Y" }}</a>
   </div>
 
-</div>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
@@ -32,4 +48,3 @@ comments: true
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
-
