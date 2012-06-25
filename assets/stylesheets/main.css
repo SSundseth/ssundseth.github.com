@@ -1,6 +1,9 @@
+
+
 .header {
-  margin-left: 20%;
-  margin-right: 20%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
   padding-left: 5px;
   background-color: #61A27F;
   font-family: 'Antic Slab', serif;
