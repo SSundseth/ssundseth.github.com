@@ -1,0 +1,14 @@
+---
+layout: post
+title: Voting = Pwnd
+---
+
+Today I returned to work on the haxxor-news site, this time working on giving
+users the ability to vote on articles and comments. After another epic
+whiteboard session with David and Chris I was surprised to find myself 
+finishing up the voting functionality in the afternoon. Granted I haven't
+written any tests and the code is a bit messy, but it all works and that's what
+counts.
+
+Several of our comrades from HQ are visiting so after work we will be visiting
+Happy Hour at the Geer Street Beer Garden. Too bad I'm two days from being 21.
