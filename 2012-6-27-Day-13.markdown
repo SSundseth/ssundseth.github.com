@@ -1,0 +1,17 @@
+---
+layout: post
+title: Another day Another PR
+---
+
+Finished up the voting feature of haxxor-news and post the pull request. I'm
+trying to adhere to the DRY(don't repeat yourself) method while using rails so
+I did a bunch of cleaning up on the code too. Wrote some specs and integration
+tests with Capybara to round it all out.
+
+On the style side I finally up/down arrows for votes to be in the right place
+and made some changes to the site's style. The advice I got from Mindy and 
+Mark is proving useful for this site as well, the colors and typography are
+much better now. Overall I'm quite pleased with how the visuals have turned
+out.
+
+Other than that, only a few things left to do on the site.
