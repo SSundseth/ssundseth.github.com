@@ -1,0 +1,16 @@
+---
+layout: post
+title: Reporting mostly done
+---
+
+Coding up the reporting functionality of the haxxor-news site went rather
+smoothly. I haven't deployed it to Heroku yet, but visitors can soon choose 
+whether they want to view the newest posts, or the highest voted by day, week,
+month, or all-time. I had to learn more about routing to complete this feature,
+especially matching urls to actions and adding constraints to be sure the right
+path sends a user to the right action.
+
+As usual there will be lots of tests written for this
+feature, gotta make sure everything works properly before sending out a pull
+request and putting it on heroku. That will be finished up tomorrow and I will
+be mostly done with haxxor-news functionality.
