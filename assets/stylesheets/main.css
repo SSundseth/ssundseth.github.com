@@ -1,10 +1,15 @@
+h2 {
+  font-family: 'Antic Slab', serif;
+}
 
+#wrapper {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header {
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 5px;
   background-color: #61A27F;
   font-family: 'Antic Slab', serif;
   font-size: 60pt;
@@ -16,6 +21,7 @@ a.head:link, a.head:visited {
 }
 
 a.cont:link, a.cont:visited {
+  font-family: 'Antic Slab', serif;
   font-size: 24pt;
   color: #96B891;
   text-decoration: none;
@@ -49,6 +55,7 @@ hr.title {
   border: 0;
 }
 hr.arch {
+  padding-above: 0px;
   color: #E9DAA8;
   background-color: #E9DAA8;
   border: 0;
