@@ -1,0 +1,25 @@
+---
+layout: post
+title: Time for a New Project
+---
+
+So the Haxxor News site is pretty much finished up. I spent today cleaning up
+some lingering issues and rounding out the functionality with some small 
+things. Aside from changes to the looks and maybe some small features this 
+thing is done.
+
+Some of the important things I've learned while working on this site:
+<ul>
+  <li>Rails syntax and MVC development</li>
+  <li>The importance of testing your code</li>
+  <li>Polymorphism in Rails</li>
+</ul>
+
+I could go into much more detail on these, I'll admit they are quite broad; but
+they are the concepts that stand out when I think of how my knowledge has
+progressed.
+
+Once I come up with an idea, for the rest of the summer I'll be building my own
+app using these and other features of rails.
+
+
