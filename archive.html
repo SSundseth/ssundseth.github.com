@@ -1,0 +1,12 @@
+---
+layout: default
+title: Archive
+---
+
+
+    <h3><a class="cont" href="/archive.html">Archive</a></h3>
+    <hr class="title">
+    {% for post in site.posts %}
+      <a class="list" href="{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}-{{ post.title}}</a><br />
+    {% endfor %}
+

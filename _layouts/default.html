@@ -7,14 +7,25 @@
   <title>{{ page.title }}</title>
 </head>
 <body>
-  <div id="wrapper">
-    <div class="header">
+  <div class="header">
+    <span style="display:inline-block; vertical-align:middle">
       <a class="head" href="/">Stefan Sundseth's Blog</a>
-    </div>
+    </span>
+  </div>
+
+  <div class="links">
+    <span style="display:inline-block; margin-left:21%">
+    <a class="arch" href="/archive.html">Archive |</a>
+    <a class="arch" href="/about.html">About |</a>
+    <a class="arch" href="http://github.com/SSundseth/ssundseth.github.com">Github |</a>
+    <a class="arch" href="/feed.xml">RSS</a>
+    </span>
   </div>
   
-  <div class="content">
-    {{ content }}
+  <div class="wrap">
+    <div class="content">
+      {{ content }}
+    </div>
   </div>
 
 </body>

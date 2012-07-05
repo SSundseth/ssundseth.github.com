@@ -1,28 +1,35 @@
 h2 {
   font-family: 'Antic Slab', serif;
 }
-
-#wrapper {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image:url('/assets/images/lightpaperfibers.png');
 }
 
 .header {
+  height: 120px;
   text-align: center;
   background-color: #61A27F;
   font-family: 'Antic Slab', serif;
   font-size: 60pt;
+  padding: 0px;
+  margin: 0px;
 }
 
+.links {
+  background-color: #61A27F;
+}
+
+
 a.head:link, a.head:visited {
-  color: #E9DAA8;
+  color: #F9DAA8;
   text-decoration: none;
 }
 
 a.cont:link, a.cont:visited {
   font-family: 'Antic Slab', serif;
-  font-size: 24pt;
+  font-size: 30pt;
   color: #96B891;
   text-decoration: none;
 }
@@ -30,9 +37,14 @@ a.cont:hover {
   text-decoration: underline;
 }
 
+a.list:link, a.list:visited {
+  color: #61A27F;
+  text-decoration: none;
+}
+
 a.arch:link, a.arch:visited {
   font-size: 14pt;
-  color: #E9DAA8;
+  color: #F9DAA8;
   text-decoration: none;
 }
 a.arch:hover {
@@ -49,10 +61,12 @@ a.page:hover {
 }
 
 hr.title {
-  color: #AFC391;
-  background-color: #AFC391;
+  color: #96B891;
+  background-color: #96B891;
   height: 3px;
   border: 0;
+  padding-below: 0px;
+  margin-below: 0px;
 }
 hr.arch {
   padding-above: 0px;
@@ -62,14 +76,21 @@ hr.arch {
   height: 2px;
 }
 
-.content {
+.wrap {
+-moz-box-shadow: 0 15px 15px 10px #888;
+-webkit-box-shadow: 0 15px 15px 10px #999;
+box-shadow: 0 15px 8px 10px #888;
   text-align: justify;
   text-justify: auto;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 27%;
+  margin-right: 27%;
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
-  line-height: 25px;
+  line-height: 30px;
+}
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .meta {
