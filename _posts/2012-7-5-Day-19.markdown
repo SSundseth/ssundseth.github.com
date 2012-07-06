@@ -1,0 +1,13 @@
+---
+layout: post
+title: officegam.es
+---
+
+As promised, my project for the rest of the summer is thus: to awesomize the
+pointless-corp website <a href="http://officegam.es">officegam.es</a>. This
+website allows users to record their competitive events in any sort of game,
+it keeps track of wins and losses for each player. The first order of business:
+update the ranking algorithm, which is currently based only upon total wins.
+I plan to use the Elo rating system which was originally developed for chess
+organizations but has been adapted to other competitions as well.
+
