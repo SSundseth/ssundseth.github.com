@@ -1,0 +1,18 @@
+---
+layout: post
+title: Code Review and Elo-System
+---
+
+Last Friday I sat down with David and Chris for a code review of haxxor-news.
+Though the functionality was mostly complete, there were some rails conventions
+and practices that I hadn't followed very closely. Most prominent was the
+duplication of code across a few of the models and controllers so I pulled 
+it out into modules that shared the methods to those models to avoid that
+repetition.
+I also learned about the Simplecov gem, which measures the coverage of your
+test suite. Since mine wasn't 100%, I wrote some more specs as well.
+
+Today I worked on officegam.es, finishing up the ranking algorithm so that it
+implements the <a href="http://en.wikipedia.org/wiki/Elo_rating_system">Elo-rating system</a>. I plan on continuing to work on officegames this week before
+transitioning to an app of my own creation for the second half of this
+internship. 
