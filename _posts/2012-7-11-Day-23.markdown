@@ -1,0 +1,18 @@
+---
+layout: post
+title: Interesting Lesson
+---
+
+As I was working on the office games ranking system, there came a point when
+I wanted to access several pieces of information from the database in order to
+display them in a view. There was already code that performed this function for
+the old system, but of course it did not return the new rating values. Since it
+<i>did</i> return helpful info such as wins,losses,win\_ratio I tried for at
+least an hour to simply modify the old query to also return ratings. Unfortunately,
+no modifaction that I tried did this in the way I wished.
+Finally, I gave up on the original query, added a scope and a few methods, and
+in 15 minutes had the view I wanted.
+
+I suppose the lesson I took away from this is that just because old code works,
+it might not be appropriate for your new functionalities; don't hesitate to
+write a method that does the same thing in a more beneficial way.
