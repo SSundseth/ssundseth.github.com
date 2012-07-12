@@ -1,0 +1,20 @@
+---
+layout: post
+title: Wielding the Rake
+---
+
+Earlier today I completed the rating system for officegames, but there is one
+problem: all of the existing data for the site has nothing to do with ratings. I
+needed a function that would take the existing database and apply the new
+system, initializing each player or team with a rating and updating them based on
+existing matches. David sent me a dump of the production database so I could run
+commands against a copy of the real thing. Once I had a function that did the
+trick I wondered how it should be executed. The answer came from David: make it
+into a rake task. This seemed daunting at first but it ended up being very
+simple. All I had to do was make a .rake file in lib/tasks, give the task a
+name (rating_init or something similar), point it to the database, throw in my
+previously mentioned function, and run
+<pre><code>$ rake rating_init</code></pre>
+
+Now I just need one last review of the code and some tests for this task
+before the new system will be ready to launch.
