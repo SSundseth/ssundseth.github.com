@@ -1,0 +1,24 @@
+---
+layout: post
+title: Only or Already?
+---
+
+Today I found myself at the halfway point of this internship at Viget. When I
+think of the time spent working here it is most certainly with the second
+adverb listed above. Already 5 weeks have gone by and I have built two websites
+and contributed to a third. My rails knowledge has skyrocketed(not hard when
+starting from zero), and I've been able to learn tricks of the trade from
+experienced professionals. Here in Durham we all use Vi for our text-editing
+so here are some of the awesome tips I've picked up:
+<ul>
+  <li>David: NerdTree plugin - lets you view the current directory tree
+  and easily navigate through files</li>
+  <li>Chris: A variety of mappings to place in vimrc that streamline file
+  opening/closing as well as buffer switching</li>
+  <li>Zach: Pathogen - The best plugin ever, lets you install other plugins
+  just by cloning their repo into ~/.vim/bundle</li>
+</ul>
+
+My work on officegames is pretty much wrapped up, so next week I'll probably
+be starting my own app from scratch. I have some good ideas and am looking
+forward to that.
