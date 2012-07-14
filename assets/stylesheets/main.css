@@ -80,8 +80,7 @@ hr.arch {
 -moz-box-shadow: 0 15px 15px 10px #888;
 -webkit-box-shadow: 0 15px 15px 10px #999;
 box-shadow: 0 15px 8px 10px #888;
-  text-align: justify;
-  text-justify: auto;
+  text-align: left;
   margin-left: 27%;
   margin-right: 27%;
   font-family: 'Open Sans', sans-serif;
