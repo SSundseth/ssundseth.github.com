@@ -1,0 +1,15 @@
+---
+layout: post
+title: New Project
+---
+
+Now that I've officially entered the second half of this internship, I'll be
+working on a project of my own for the next five weeks. This project is an
+app I call uwharrie-offroading, which for now lets users input their times on
+the trails of Uwharrie National Park. I want to eventually implement geotracking
+so that times are uploaded automatically, but the app is still young and there
+is a lot to do before that can happen.
+
+Today I set up a user database, added authentication, and made models for
+trails and for timings. Uwharrie-offroad is growing pretty quickly compared to
+haxxor-news so it won't be long before I get to the cool stuff.
