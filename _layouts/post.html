@@ -3,33 +3,13 @@ layout: default
 comments: true
 ---
 
-<table>
-  <tr>
-    <td style="width:75%;">
-      <h3><a class="cont" href="{{ post.url }}">{{ page.title }}</a></h3>
-      <hr class="title">
-      {{ content }}
-    </td>
+<h3><a class="cont" href="{{ post.url }}">{{ page.title }}</a></h3>
+<hr class="title">
+{{ content }}
 
-    <td style="width:20%; text-align:center; padding-left:30px">
-      <div class="chunk">
-        <h2>Links</h2>
-        <hr class="arch">
-        <hr class="arch">
-        <a class="arch" href="/about.html">About</a><br />
-        <a class="arch" href="https://github.com/SSundseth/ssundseth.github.com">Github for this site</a><br />
-        <a class="arch" href="/feed.xml">RSS</a><br />
-
-        <hr class="arch">
-        <hr class="arch"><br />
-      </div>
-    </td>
-  </tr>
-</table>
-
-  <div class="meta">
-    Posted on <a href="{{ page.url }}">{{ page.date | date: "%d %B %Y" }}</a>
-  </div>
+<div class="meta">
+  Posted on <a href="{{ page.url }}">{{ page.date | date: "%d %B %Y" }}</a>
+</div>
 
 
 {% if page.comments %}
