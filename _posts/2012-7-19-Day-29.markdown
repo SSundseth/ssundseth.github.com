@@ -1,0 +1,13 @@
+---
+layout: post
+title: Going Offroad
+---
+
+Today I wrote lots and lots of specs for uwharrie-offroad. The Simplecov gem was very useful in telling me how much of the app was
+covered by the test suite. Once the specs were complete, I did some research on geotracking through the browser. There are plenty of
+ways to get the current location of a user, but I'm not sure how feasible it will be to have constant tracking. Until I figure out more
+about tracking I'm going to stick with the current plan.
+
+In the midst of lots
+of javascript I fixed some of the views with twitter bootstrap and began working on an interactive map for the front page. The css
+for that is pretty cool and I like how it's turning out.
