@@ -1,0 +1,16 @@
+---
+layout: post
+title: TDD
+---
+
+Met up with David to go over the changes I'd made for OfficeGames and found that
+the specs were quite lacking. We started the branch over, this time utilizing
+test driven development(TDD). This entails writing specs before any functional
+code, being sure to cover every possibility. You run the tests and of course
+they should all fail because you haven't actually done anything. Then, one by
+one, you write code that will make the tests pass. If your test suite is
+complete, you can be sure that your functional code does exactly what it's
+supposed to.
+
+Once I understood the concept, TDD seemed like a much safer way to develop so
+I spent the day rewriting most of my OfficeGames update.
