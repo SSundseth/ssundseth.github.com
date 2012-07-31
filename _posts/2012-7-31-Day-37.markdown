@@ -1,0 +1,13 @@
+---
+layout: post
+title: Location is Everything
+---
+
+For anyone looking to add location tracking to their site, here is a great <a href="http://www.w3.org/TR/geolocation-API/">API</a>.
+I used it to write a function which would ideally track me as I drove home from Viget and record the time. Basically, I
+plugged in the coordinates for my house, made a timer, and told the timer to stop when the location received was within 50m of home.
+There were a couple problems:
+<li> When the phone goes to sleep(after about 30 sec) the timer stops counting </li>
+<li> The gps of mobile devices has problems with accuracy, sometimes it is within 20m sometimes within 1500 </li>
+
+This week I'll be ironing out these wrinkles and hopefully have the times automatically display on the website.
