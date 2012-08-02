@@ -1,0 +1,18 @@
+---
+layout: post
+title: Have a cup of Coffee
+---
+
+After realizing how cool Coffeescript is, I rewrote all the javascript functionality for uwharrie-offroad.
+Some weirdness occurred when I had to bind a variable to the output of a function but overall the syntax
+is much cleaner and easier to write.
+
+Now that the geotracking is working, I've been figuring out how to have the server-side and client-side
+code interact. Zach gave me a hand with this today, explaining how content_tag data can be read by
+jQuery and then used within functions. We also talked about how Ajax can automatically submit a post
+request to a controller, I'll use this to automatically upload times when users enter certain locations.
+
+For the past few days I've been performing tests on my code using the drive home to send data to the
+geolocation functions. Yesterday the function started a timer when I left Viget that stopped automatically
+when I reached my house, so today the function will (hopefully) submit this time automatically to the site
+using an Ajax post.
