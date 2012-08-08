@@ -1,0 +1,13 @@
+---
+layout: post
+title: Success!
+---
+
+After a week or two of tinkering, the geotracking of uwharrie-offroad finally works
+like it's supposed to. Now I just navigate to the 'Add Time' link, click a button to
+begin timing, and click another button when I reach the destination. The time will
+automatically be posted on the site.
+
+Since the functionality work is mostly out of the way, I've been changing some of the
+site style to make it more user-friendly and less debugging-friendly. I've nearly reached
+the final week of this internship and things have turned out pretty neatly.
