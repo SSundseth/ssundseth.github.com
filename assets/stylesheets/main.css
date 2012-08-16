@@ -14,11 +14,9 @@ a:hover {
 }
 
 .header {
-  height: 120px;
   text-align: center;
   background-color: #61A27F;
   font-family: 'Antic Slab', serif;
-  font-size: 60pt;
   padding: 0px;
   margin: 0px;
 }
@@ -27,10 +25,12 @@ a:hover {
   font-size: 14pt;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 5px;
 }
 
 a.head:link, a.head:visited {
-  color: #96B891;
+  font-size: 60pt;
+  color: #F9DAA8;
 }
 
 a.head:hover {

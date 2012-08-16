@@ -3,9 +3,8 @@ layout: default
 title: Archive
 ---
 
-
-    <h3><a class="cont" href="/archive.html">Archive</a></h3>
-    <hr class="title">
-    {% for post in site.posts %}
-      <a class="list" href="{{ post.url }}">{{ post.title}} - {{ post.date | date: "%B %d, %Y" }}</a><br />
-    {% endfor %}
+<h3><a class="cont" href="/archive.html">Archive</a></h3>
+<hr class="title">
+{% for post in site.posts %}
+  <a class="list" href="{{ post.url }}">{{ post.title}} - {{ post.date | date: "%B %d, %Y" }}</a><br />
+{% endfor %}
