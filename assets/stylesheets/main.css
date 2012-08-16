@@ -6,6 +6,12 @@ body {
   padding: 0px;
   background-image:url('/assets/images/lightpaperfibers.png');
 }
+a:link, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
 .header {
   height: 120px;
@@ -17,13 +23,17 @@ body {
   margin: 0px;
 }
 
-.links {
-  background-color: #61A27F;
+.links span {
+  font-size: 14pt;
+  display: inline-block;
+  margin: auto;
 }
 
-
 a.head:link, a.head:visited {
-  color: #F9DAA8;
+  color: #000;
+}
+
+a.head:hover {
   text-decoration: none;
 }
 
@@ -31,33 +41,21 @@ a.cont:link, a.cont:visited {
   font-family: 'Antic Slab', serif;
   font-size: 30pt;
   color: #96B891;
-  text-decoration: none;
-}
-a.cont:hover {
-  text-decoration: underline;
 }
 
 a.list:link, a.list:visited {
   color: #61A27F;
-  text-decoration: none;
 }
 
 a.arch:link, a.arch:visited {
   font-size: 14pt;
   color: #F9DAA8;
-  text-decoration: none;
 }
-a.arch:hover {
-  text-decoration: underline;
-}
+
 
 a.page:link, a.page:visited {
   font-size:14pt;
   color: #61A27F;
-  text-decoration: none;
-}
-a.page:hover {
-  text-decoration: underline;
 }
 
 hr.title {
